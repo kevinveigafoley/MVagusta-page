@@ -1,0 +1,16 @@
+.transicion {
+    background: darkgray;
+    &;hover {
+        background: rgb(211, 11, 11);
+        color: #fff;
+    }
+
+    & --transition {
+    transition: background ease-in 1s;
+    }
+}
+header{
+    background: linear-gradient(to right),
+    rgba(rgb(145, 145, 145), green, blue, alpha),
+    rgba(rgb(226, 30, 30), green, blue, alpha);
+}
