@@ -1,48 +1,65 @@
 body {
-  font-family: 'Akshar', sans-serif; }
+  font-family: 'Akshar', sans-serif;
+}
 
 ul {
-  list-style: none; }
-  ul li {
-    display: inline-block;
-    padding: 20px; }
-    ul li a {
-      color: white;
-      text-decoration: none;
-      font-size: 25px; }
-      ul li a:hover {
-        color: red;
-        text-decoration: underline;
-        font-weight: bold; }
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul li a:hover {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 .logo {
-  width: 150px; }
+  width: 150px;
+}
 
 section {
-  padding: 100px 0; }
+  padding: 100px 0;
+}
 
 section h2 {
   margin: 0;
-  font-size: 3em; }
+  font-size: 3em;
+}
 
 section.success {
   background: #18BC9C;
-  color: white; }
+  color: white;
+}
 
 @media (max-width: 767px) {
   section {
-    padding: 75px 0; }
+    padding: 75px 0;
+  }
   section.first {
-    padding-top: 75px; } }
+    padding-top: 75px;
+  }
+}
 
 ul[role=alert] {
-  color: #ff8200; }
+  color: #ff8200;
+}
 
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee; }
+  border-bottom: 1px solid #eeeeee;
+}
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -54,8 +71,10 @@ ul[role=alert] {
   border-radius: 0;
   font-size: 1.5em;
   background: none;
-  box-shadow: none !important;
-  resize: none; }
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  resize: none;
+}
 
 .floating-label-form-group label {
   display: block;
@@ -69,31 +88,36 @@ ul[role=alert] {
   vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease; }
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
 
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eeeeee; }
+  border-left: 1px solid #eeeeee;
+}
 
 .floating-label-form-group-with-value label {
   top: 0;
-  opacity: 1; }
+  opacity: 1;
+}
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C; }
+  color: #18BC9C;
+}
 
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee; }
+  border-top: 1px solid #eeeeee;
+}
 
 .btn-outline {
   color: white;
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 .btn-outline:hover,
 .btn-outline:focus,
@@ -101,13 +125,15 @@ form .row:first-child .floating-label-form-group {
 .btn-outline.active {
   color: #18BC9C;
   background: white;
-  border: solid 2px white; }
+  border: solid 2px white;
+}
 
 .btn-primary {
   color: white;
   background-color: #2C3E50;
   border-color: #2C3E50;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -116,12 +142,14 @@ form .row:first-child .floating-label-form-group {
 .open .dropdown-toggle.btn-primary {
   color: white;
   background-color: #1a242f;
-  border-color: #161f29; }
+  border-color: #161f29;
+}
 
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  background-image: none; }
+  background-image: none;
+}
 
 .btn-primary.disabled,
 .btn-primary[disabled],
@@ -139,17 +167,20 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #2C3E50;
-  border-color: #2C3E50; }
+  border-color: #2C3E50;
+}
 
 .btn-primary .badge {
   color: #2C3E50;
-  background-color: white; }
+  background-color: white;
+}
 
 .btn-success {
   color: white;
   background-color: #18BC9C;
   border-color: #18BC9C;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .btn-success:hover,
 .btn-success:focus,
@@ -158,12 +189,14 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-success {
   color: white;
   background-color: #128f76;
-  border-color: #11866f; }
+  border-color: #11866f;
+}
 
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  background-image: none; }
+  background-image: none;
+}
 
 .btn-success.disabled,
 .btn-success[disabled],
@@ -181,11 +214,13 @@ fieldset[disabled] .btn-success:active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
   background-color: #18BC9C;
-  border-color: #18BC9C; }
+  border-color: #18BC9C;
+}
 
 .btn-success .badge {
   color: #18BC9C;
-  background-color: white; }
+  background-color: white;
+}
 
 .btn-social {
   display: inline-block;
@@ -195,9 +230,12 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
-  line-height: 45px; }
+  line-height: 45px;
+}
 
 .btn:focus,
 .btn:active,
 .btn.active {
-  outline: none; }
+  outline: none;
+}
+/*# sourceMappingURL=estilos.css.map */

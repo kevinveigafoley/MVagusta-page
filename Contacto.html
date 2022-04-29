@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/estilos.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-dark text-white">
+    <header>
+        <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MVAgusta</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="historia.html">Nuestra Historia</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Modelos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Dragster</a></li>
+                      <li><a class="dropdown-item" href="#">Brutale</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">f3</a></li>
+                      <li><a class="dropdown-item" href="#">Turismo Veloce</a></li>
+                      <li><a class="dropdown-item" href="#">Super Veloce</a></li>
+                    </ul>
+                  </li>
+                  
+                  
+                  <ul>
+                    <img src="images/logo mv.svg" alt="">
+                  </ul>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+         
+
+    </header>
+    <main class="bg-dark text-white"> 
+        <section id="contacto">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2>Contactenos</h2>
+                  <hr class="star-primary">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  
+                  <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor, ingrese su name.">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, ingrese su email address.">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Número de teléfono</label>
+                        <input type="tel" class="form-control" placeholder="Número de teléfono" id="phone" required data-validation-required-message="Por favor, ingrese su número de teléfono.">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Mensaje</label>
+                        <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor, ingrese un mensaje."></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                      <div class="form-group col-xs-12">
+                        <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer class="bg-dark text-white">
+        <div class="container">
+          <nav class="row">
+            <a href="#"
+            class="col-3 text-reset text-uppercase d-flex align-items-center"><img src="images/logo mv.svg" alt="Logo MVAgusta" class="logo">MV Agusta 
+          </a>
+          <ul class="col-3 list-unstyled">
+            
+             <li><a href="Contacto.html" > Contactanos</a></li>
+             <li><a href="" > Privacidad y bases legales</a></li>
+             <li><a href="" > conviertete en un distribuidor</a></li>
+      
+          </ul>
+          <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold text uppercase"> Nuestras Redes Sociales</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#"> Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#"> linkedin</a></li>
+          
+      
+         </ul>
+          </nav>
+        </div>
+      </footer>
+    
+ <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
