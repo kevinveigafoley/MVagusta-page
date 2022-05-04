@@ -1,0 +1,3 @@
+agregados al las 3 paginas html actualmente disponibles los meta con las respectivas descripciones, al index agregando los modelos de motos en las que sale la pagina de presentacion mas la pequeña descripcion de los valores de la marca.
+a historia tengo agregados principales eventos llamativos de la marca a traves de su historia, ademas  de un pequeño prologo de lo que es la marca a traves de sus años.
+como contacto puse busquedas mas representativas y unicas que pueden derivar a su pagina de contacto 

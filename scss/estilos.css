@@ -2,29 +2,8 @@ body {
   font-family: 'Akshar', sans-serif;
 }
 
-ul {
-  list-style: none;
-}
-
-ul li {
-  display: inline-block;
-  padding: 20px;
-}
-
-ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-ul li a:hover {
-  color: red;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.logo {
-  width: 150px;
+section {
+  padding: 100px 0;
 }
 
 section {
@@ -54,6 +33,7 @@ ul[role=alert] {
   color: #ff8200;
 }
 
+/* form */
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -84,8 +64,6 @@ ul[role=alert] {
   margin: 0;
   font-size: 0.85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
@@ -237,5 +215,37 @@ fieldset[disabled] .btn-success.active {
 .btn:active,
 .btn.active {
   outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul li a:hover {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+}
+
+.banner {
+  background-image: url("../images/DRAGSTERSCS24.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /*# sourceMappingURL=estilos.css.map */
